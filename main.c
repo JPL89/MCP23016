@@ -29,7 +29,7 @@ void main(void)
     
     // DATA
     MCP23016_write(MCP23016_GP0, 0x07);
-    MCP23016_write(MCP23016_GP0, 0xFF);
+    MCP23016_write(MCP23016_GP1, 0xFF);
 
     while(1);
     
