@@ -25,7 +25,7 @@ void main(void)
     
     // PINS CONFIGURED AS OUTPUT
     MCP23016_write(MCP23016_IODIR0, 0x00);
-    MCP23016_write(MCP23016_IODIR0, 0x00);
+    MCP23016_write(MCP23016_IODIR1, 0x00);
     
     // DATA
     MCP23016_write(MCP23016_GP0, 0x07);
